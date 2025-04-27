@@ -1,0 +1,42 @@
+@use "scss/normalize.scss";
+@use "scss/theme.scss";
+
+@font-face {
+  font-family: "Montserrat";
+  src: url("./assets/fonts/Montserrat-VariableFont_wght.woff2") format("woff2"),
+    url("./assets/fonts/Montserrat-VariableFont_wght.woff2") format("woff");
+  font-style: normal;
+  font-display: swap;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+img {
+  max-width: 100%;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+html,
+body {
+  height: 100%;
+  background-color: #eaeaea;
+  font-family: "Montserrat", Arial, Helvetica, sans-serif;
+}

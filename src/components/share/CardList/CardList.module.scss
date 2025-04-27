@@ -1,0 +1,30 @@
+.content {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  margin-bottom: 20px;
+}
+
+.title {
+  margin: 0;
+  font-weight: 600;
+  font-size: 20px;
+  color: #838383;
+  margin-bottom: 20px;
+}
+
+.list {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+
+  @media (max-width: 1024px) {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  @media (max-width: 768px) {
+    grid-template-columns: minmax(300px, 400px);
+    justify-content: center;
+  }
+}
+

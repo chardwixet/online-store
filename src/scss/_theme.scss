@@ -1,0 +1,11 @@
+$color-background: #f5f5f5;
+$color-card: #fff;
+$color-primary: #6750a4;
+$color-primary-light: #9a8dbe;
+
+:root {
+  --color-background: #{$color-background};
+  --color-primary: #{$color-primary};
+  --color-card: #{$color-card};
+  --color-primary-light: #{$color-primary-light};
+}

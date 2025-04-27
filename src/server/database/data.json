@@ -1,0 +1,87 @@
+{
+  "products": [
+    {
+      "title": "ПК высшей категории",
+      "computers": [
+        {
+          "id": 1,
+          "img": "pc1.jpg",
+          "title": "Zen8",
+          "price": 3527,
+          "descr": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic eligendi atque rerum animi aperiam molestias, corporis necessitatibus ullam excepturi numquam doloremque facere voluptatum quisquam ad optio voluptate ipsam ut distinctio!",
+          "discount": 17,
+          "rate": 4.7
+        },
+        {
+          "id": 2,
+          "img": "pc2.jpg",
+          "title": "Zen7",
+          "descr": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus sapiente ullam doloribus corrupti error rem repellendus delectus saepe facilis, porro a voluptatum earum, magni minima. Vitae dignissimos placeat deserunt. Aperiam?",
+          "price": 2327,
+          "rate": 4.5
+        },
+        {
+          "id": 3,
+          "img": "pc3.jpg",
+          "title": "Lon1",
+          "descr": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Omnis adipisci explicabo repudiandae dolorem nam beatae ab laudantium magni, at perferendis expedita accusamus sequi, totam modi placeat mollitia quidem! Tempore, expedita.",
+          "price": 2327,
+          "rate": 4.5
+        },
+        {
+          "id": 4,
+          "img": "pc1.jpg",
+          "title": "Lon2",
+          "descr": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum id cupiditate illo enim vel, reprehenderit animi quam est! Quasi ipsa repellat in ipsam tenetur esse unde eos eligendi quam nulla.",
+          "price": 2927,
+          "rate": 4.7
+        },
+        {
+          "id": 5,
+          "img": "pc2.jpg",
+          "title": "Lon3",
+          "descr": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fugiat, et, vero nihil quisquam voluptas quo non minima, id numquam sapiente maxime? Veritatis dolorem ut culpa tenetur perspiciatis iure, libero odio?",
+          "price": 2327,
+          "rate": 4.5
+        },
+        {
+          "id": 6,
+          "img": "pc3.jpg",
+          "title": "Konil",
+          "descr": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea, accusantium. Aliquid, sit facilis! Cupiditate obcaecati a totam, reiciendis magnam natus molestias numquam vitae sit placeat facilis accusantium, ut doloremque expedita!",
+          "price": 2327,
+          "rate": 4.5
+        }
+      ]
+    },
+    {
+      "title": "Бюджетные ПК",
+      "computers": [
+        {
+          "id": 1,
+          "img": "pc4.jpg",
+          "title": "Qipal",
+          "descr": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus quasi tempore sunt. Saepe incidunt ratione dignissimos provident fugit molestias sequi quisquam nemo! Perspiciatis omnis, consequatur ea eos illo itaque temporibus!",
+          "price": 9527,
+          "rate": 4.7
+        },
+        {
+          "id": 2,
+          "img": "pc4.jpg",
+          "title": "Qipal2",
+          "descr": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Molestiae nobis, ex beatae id eaque iure, animi enim, eius culpa sint ducimus saepe minima quas temporibus natus. Ullam voluptates molestias reiciendis.",
+          "price": 6527,
+          "rate": 4.7
+        },
+        {
+          "id": 3,
+          "img": "pc4.jpg",
+          "title": "Qipal3",
+          "descr": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel animi debitis eum asperiores, expedita dignissimos delectus velit quos minus, error facilis modi reprehenderit perspiciatis, veniam earum consectetur. Reiciendis, cum nam!",
+          "price": 7527,
+          "rate": 4.7
+        }
+      ]
+    }
+  ]
+}

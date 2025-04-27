@@ -1,0 +1,82 @@
+.content {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  justify-content: center;
+  padding: 20px;
+  min-height: 350px;
+}
+
+.cartInfo {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.form {
+  width: 350px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.input {
+  padding: 10px;
+  border: 1px solid #686868;
+  &:focus {
+    outline: none;
+    border-color: #000;
+    background-color: #f0efef;
+  }
+}
+
+@mixin btnReset {
+  padding: 0;
+  border: none;
+  font: inherit;
+  color: inherit;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.btn {
+  @include btnReset();
+  @include btnReset();
+  padding: 22px 13px;
+  font-weight: 600;
+  font-size: 17px;
+  text-align: center;
+  color: #fff;
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.25);
+  background: #101010;
+  cursor: pointer;
+
+  transition: background-color 0.3s ease-in-out;
+
+  &:hover {
+    background-color: #383838;
+  }
+}
+
+.number {
+  width: 100%;
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.bottomInfo {
+  display: flex;
+  gap: 5px;
+}
+
+.expire {
+  width: 100%;
+}
+
+.cvv {
+  width: 100%;
+}

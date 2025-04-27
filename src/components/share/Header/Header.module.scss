@@ -1,0 +1,58 @@
+.header {
+  display: flex;
+  margin-bottom: 20px;
+  padding: 20px 0;
+  justify-content: space-between;
+  align-items: center;
+  padding-right: 5px;
+}
+
+.listBtn {
+  display: flex;
+  align-items: center;
+  gap: 45px;
+}
+
+.btn {
+  background: none;
+  border: none;
+  padding: 0;
+  cursor: pointer;
+}
+
+.link {
+  display: block;
+  width: 24px;
+  height: 25px;
+  position: relative;
+}
+
+.icon path {
+  transition: fill 0.3s ease-in-out;
+}
+
+.link:hover .icon path {
+  fill: var(--color-primary);
+}
+
+.count {
+  position: absolute;
+  right: -11px;
+  top: -9px;
+  width: 18px;
+  height: 18px;
+  background-color: var(--color-primary);
+  border-radius: 5px;
+  font-weight: 500;
+  font-size: 15px;
+  text-align: center;
+  color: #fff;
+}
+
+.item {
+}
+
+.cart {
+  right: -8px;
+  top: -6px;
+}
