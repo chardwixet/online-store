@@ -1,4 +1,3 @@
-import { Headphone } from "../CardList/CardList";
 import { useDispatch } from "react-redux";
 import {
   deleteProduct,
@@ -13,6 +12,7 @@ import DeleteIcon from "@assets/icons/delete.svg?react";
 import style from "./CartItem.module.scss";
 import { calcDisc } from "@/helper/discount";
 import { imageLink } from "@/helper/imageLink";
+import { Computer } from "../CartShopList";
 
 interface Props {
   item: SomeArr;
@@ -26,16 +26,16 @@ export function CartItem({ item }: Props) {
     ? calcDisc(item.data.price, item.data.discount)
     : item.data.price;
 
-  function handleAddClick(headphone: Headphone) {
-    dispatch(setProduct(headphone));
+  function handleAddClick(computer: Computer) {
+    dispatch(setProduct(computer));
   }
 
-  function handleRemoveClick(headphone: Headphone) {
-    dispatch(removeProduct(headphone));
+  function handleRemoveClick(computer: Computer) {
+    dispatch(removeProduct(computer));
   }
 
-  function handleDeleteClick(headphone: Headphone) {
-    dispatch(deleteProduct(headphone));
+  function handleDeleteClick(computer: Computer) {
+    dispatch(deleteProduct(computer));
   }
 
   return (

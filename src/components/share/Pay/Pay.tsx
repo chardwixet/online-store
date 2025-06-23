@@ -1,6 +1,3 @@
-import { Headphone } from "../CardList";
-import Star from "@assets/icons/star.svg?react";
-import { calcDisc } from "@/helper/discount";
 import Cleave from "cleave.js/react";
 import style from "./Pay.module.scss";
 import { cvv, expirationDate, number } from "card-validator";
@@ -52,10 +49,9 @@ export function Pay({ total }: Props) {
     return Object.values(newErrors).every((error) => !error);
   }
 
-  function handleSubmit(e) {
+  function handleSubmit(e: React.FormEvent<HTMLFormElement>) {
     e.preventDefault();
     if (validateNumber()) {
-      console.log("валидно");
     }
   }
 

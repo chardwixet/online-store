@@ -4,22 +4,24 @@ import { RootState } from "@/store";
 import { CartItem } from "../CartItem";
 import { openModal } from "@/store/slices/modalSlice";
 
-export interface Headphone {
+export interface Computer {
+  id: number;
   img: string;
   title: string;
   price: number;
   discount?: number;
   rate: number;
+  descr: string;
 }
 
-export interface Headphones {
+export interface Products {
   title: string;
-  arr: Headphone[];
+  arr: Computer[];
 }
 
 export function CartShopList() {
   const data = useSelector((state: RootState) => state.cart);
-  const dispatch = useDispatch()
+  const dispatch = useDispatch();
 
   return (
     <div className={style.content}>
@@ -39,12 +41,20 @@ export function CartShopList() {
               <span>₽ {data.totalPrice.toLocaleString("ru-RU")}</span>
             </div>
             <button
-              className={`${style.pay} ${!data.totalCount && style.disabled}`} onClick={()=>dispatch(
-                                openModal({
-                                  modalName: "payModal",
-                                  props: { total: {totalPrice: data.totalPrice, totalCount: data.totalCount} },
-                                })
-                              )}
+              className={`${style.pay} ${!data.totalCount && style.disabled}`}
+              onClick={() =>
+                dispatch(
+                  openModal({
+                    modalName: "payModal",
+                    props: {
+                      total: {
+                        totalPrice: data.totalPrice,
+                        totalCount: data.totalCount,
+                      },
+                    },
+                  })
+                )
+              }
             >
               Перейти к оформлению
             </button>

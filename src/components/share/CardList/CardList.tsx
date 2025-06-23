@@ -34,7 +34,6 @@ export function CardList() {
   }
 
   if (error) {
-    console.log(error);
     return (
       <div>
         <span>Повторите ошибку</span>

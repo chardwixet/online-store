@@ -1,9 +1,10 @@
-import { Headphone } from "@/components/share/CardList";
+
+import { Computer } from "@/components/share/CartShopList";
 import { calcDisc } from "@/helper/discount";
 import { createSlice, PayloadAction } from "@reduxjs/toolkit";
 
 export interface SomeArr {
-  data: Headphone;
+  data: Computer;
   count: number;
   price: number;
 }
@@ -34,7 +35,7 @@ const cartSlice = createSlice({
         state.totalPrice = cart.totalPrice;
       }
     },
-    setProduct(state, action: PayloadAction<Headphone>) {
+    setProduct(state, action: PayloadAction<Computer>) {
       const product =
         state.products[action.payload.title + "_" + action.payload.id];
 

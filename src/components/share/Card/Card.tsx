@@ -1,4 +1,3 @@
-import { Headphone } from "../CardList/CardList";
 import { useDispatch } from "react-redux";
 import { setProduct } from "@/store/slices/cartSlice";
 import { calcDisc } from "@/helper/discount";
@@ -8,9 +7,10 @@ import Eye from "@assets/icons/eye.svg?react";
 
 import style from "./Card.module.scss";
 import { imageLink } from "@/helper/imageLink";
+import { Computer } from "../CartShopList";
 
 interface Props {
-  item: Headphone;
+  item: Computer;
 }
 
 export function Card({ item }: Props) {
@@ -22,7 +22,7 @@ export function Card({ item }: Props) {
 
   const imageUrl = imageLink(item.img);
 
-  function handleClick(headphone: Headphone) {
+  function handleClick(headphone: Computer) {
     dispatch(setProduct(headphone));
   }
 

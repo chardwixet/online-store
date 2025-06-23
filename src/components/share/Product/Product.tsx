@@ -1,11 +1,11 @@
-import { Headphone } from "../CardList";
 import Star from "@assets/icons/star.svg?react";
 import style from "./Product.module.scss";
 import { calcDisc } from "@/helper/discount";
 import { imageLink } from "@/helper/imageLink";
+import { Computer } from "../CartShopList";
 
 interface Props {
-  product: Headphone;
+  product: Computer;
 }
 
 export function Product({ product }: Props) {
