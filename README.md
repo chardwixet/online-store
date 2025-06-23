@@ -37,9 +37,3 @@
       ```bash
       npm run dev
       ```
-  
-  2. Запустить сервер:
-  
-     ```bash
-      npm run server
-      ```
