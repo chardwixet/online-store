@@ -16,29 +16,30 @@
 
 ## Технологический стек
 
-- React 18
-- HTML, SCSS Modules
-- Redux Toolkit
-- Tanstack Query v5
-- React Router v6
-- ZOD
+  - React 18
+  - HTML, SCSS Modules
+  - TypeScript
+  - Redux Toolkit
+  - Tanstack Query v5
+  - React Router v6
+  - ZOD
 
 ## Как запустить
 
-1. Установить зависимости:
-
-    ```bash
-    npm install
-    ```
-
-2. Запустить приложение:
-
-    ```bash
-    npm run dev
-    ```
-
-2. Запустить сервер:
-
-   ```bash
-    npm run server
-    ```
+  1. Установить зависимости:
+  
+      ```bash
+      npm install
+      ```
+  
+  2. Запустить приложение:
+  
+      ```bash
+      npm run dev
+      ```
+  
+  2. Запустить сервер:
+  
+     ```bash
+      npm run server
+      ```
